@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dani Maulana — Firmware &amp; IoT Engineer</title>
+  <meta name="description" content="Portfolio of Dani Maulana, a firmware and IoT engineer in Jakarta. Embedded systems, connected devices, and production test tooling.">
+  <meta name="author" content="Dani Maulana">
+  <meta name="theme-color" content="#08101c">
+  <link rel="icon" href="portfolio-icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-bar">
+      <a class="brand" href="#top">
+        <img class="brand-mark" src="portfolio-icon.svg" width="32" height="32" alt="">
+        <span class="brand-name">Dani Maulana</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#outside">Achievements</a>
+        <a href="#about">About</a>
+        <a class="nav-resume" href="Dani_Maulana_Resume.pdf" download>Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <p class="eyebrow">Jakarta · Firmware engineer · 2023 — now</p>
+        <h1>Dani Maulana</h1>
+        <p class="lede">I write firmware for connected devices, from the first prototype through the units that leave production.</p>
+        <p class="now">Currently building rally-car safety telemetry at PT Indo Trans Teknologi, including a satellite protocol the company uses to cut airtime cost.</p>
+        <div class="hero-actions">
+          <a class="button button-solid" href="#work">Selected work</a>
+          <a class="button button-ghost" href="Dani_Maulana_Resume.pdf" download>Download resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="about" aria-labelledby="about-title">
+      <div class="shell split">
+        <div>
+          <p class="section-index">01</p>
+          <h2 id="about-title">About</h2>
+        </div>
+        <div class="prose">
+          <p>Three years in IoT and embedded systems. I work across microcontroller firmware, sensor front-ends, and the links that get data off a device — SMS, GSM, satellite, USB — and I stay with a product from the bench into manufacturing.</p>
+          <p>I studied electrical engineering at Universitas Udayana and graduated in 2022 with a GPA of 3.79. Before that I led human-resource development for FKHMEI in Bali and Nusa Tenggara, and I was part of the core team of the PAKSI rocket study group.</p>
+          <ul class="fact-list">
+            <li><span>Focus</span> Embedded firmware, IoT, hardware bring-up</li>
+            <li><span>Stack</span> C/C++, Python, RTOS, Linux</li>
+            <li><span>Base</span> Jakarta, Indonesia</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band-alt" id="experience" aria-labelledby="experience-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="section-index">02</p>
+          <h2 id="experience-title">Experience</h2>
+        </div>
+        <ol class="roles">
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">Mar 2026 — Present</p>
+              <p class="role-where">Jakarta</p>
+            </div>
+            <div class="role-body">
+              <h3>Firmware Engineer</h3>
+              <p class="role-org">PT Indo Trans Teknologi</p>
+              <ul>
+                <li>Led firmware for a rally-car safety monitor built to FIA technical and safety rules.</li>
+                <li>Designed a communication orchestrator that routes telemetry across SMS, GSM TCP/IP, satellite, and USB.</li>
+                <li>Wrote the Transtrack Standard Protocol, a compact satellite format adopted company-wide to reduce communication cost.</li>
+                <li>Cut latency on the data path, and built a testable firmware architecture driven from a custom GUI.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">Mar 2024 — Dec 2025</p>
+              <p class="role-where">Jakarta</p>
+            </div>
+            <div class="role-body">
+              <h3>Firmware Engineer</h3>
+              <p class="role-org">PT Tata Sarana Mandiri</p>
+              <ul>
+                <li>Wrote firmware at HAL, low-layer, and register level, including a bootloader for firmware update over the air.</li>
+                <li>Built embedded software for a breast-cancer detector that sends tactile readings to a monitor or tablet for an AI-optimized result, and for an IoT water meter, tuning the optical signal path for a cleaner measurement.</li>
+                <li>Researched low-power wireless, and shipped a desktop GUI that automated hardware checks in mass production.</li>
+                <li>Validated boards with JTAG/SWD, logic analyzers, and oscilloscopes.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">May 2023 — Feb 2024</p>
+              <p class="role-where">Bali</p>
+            </div>
+            <div class="role-body">
+              <h3>IoT Engineer</h3>
+              <p class="role-org">ZettaByte Pte Ltd</p>
+              <ul>
+                <li>Built devices for a villa management system: lighting, a security camera, and electricity and water monitoring.</li>
+                <li>Drew PCB layouts and schematics, and programmed SoCs, single-board computers, and microcontrollers.</li>
+                <li>Ran Linux and an RTOS in the same IoT environment, and documented the research as the devices took shape.</li>
+                <li>Mentored interns on the IoT team.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band" id="work" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="section-index">03</p>
+          <h2 id="work-title">Selected work</h2>
+          <p class="section-note">Devices and test tools, from a villa prototype to the jig that checks boards in production.</p>
+        </div>
+
+        <article class="company" aria-labelledby="zetta-title">
+          <div class="company-copy">
+            <p class="kicker">ZettaByte Pte Ltd · Bali</p>
+            <h3 id="zetta-title">Villa management system</h3>
+            <p>May 2023 to February 2024. A camera and two meters on one villa network. Each device stays quiet until it has something to send.</p>
+          </div>
+          <div class="project-grid project-grid-3">
+            <article class="card">
+              <div class="stage">
+                <img src="assets/smart-camera-vms.png" width="136" height="360" alt="Tall white sensor housing with a passive infrared lens and a camera lens">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Camera</p>
+                <h3>Smart camera</h3>
+                <p>Wakes when someone moves, then sends the clip to the database.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="stage">
+                <img src="assets/smart_water-meter-vms.png" width="390" height="378" alt="White enclosure wired to a clear flow sensor on a PVC water pipe">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Water</p>
+                <h3>Water meter</h3>
+                <p>Measures use on the pipe and sends an update every hour.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="stage">
+                <img src="assets/electricity-meter-vms.png" width="384" height="406" alt="Open electrical cabinet with three metering modules, a wireless board, and circuit breakers">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Power</p>
+                <h3>Electricity meter</h3>
+                <p>Reports consumption every hour and sends a Telegram alert.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <article class="company" aria-labelledby="tsm-title">
+          <div class="company-copy">
+            <p class="kicker">PT Tata Sarana Mandiri · Jakarta</p>
+            <h3 id="tsm-title">Metering, medical, and the production line</h3>
+            <p>Firmware from March 2024 to December 2025. A battery water meter and its optical sensor, a breast-cancer detector, and the jig that tests boards before they ship.</p>
+          </div>
+          <div class="project-grid">
+            <article class="card">
+              <div class="stage stage-contain stage-meter">
+                <img src="assets/ultra-low-power-water-meter.png" width="502" height="550" alt="Red retrofit water meter with the lid open, showing a mechanical counter">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Metering</p>
+                <h3>Ultra low power water meter</h3>
+                <p>A retrofit meter for live water use. It is built to keep reporting for a long time on one battery.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="stage">
+                <img src="assets/optical-sensor.png" width="620" height="426" alt="Three small green sensor boards, each with a microcontroller and optical components">
+              </div>
+              <div class="card-body">
+                <p class="kicker">STM32U0 · Sensing</p>
+                <h3>Low power optical sensor</h3>
+                <p>The sensing front-end for that meter. It counts optical pulses and ignores daylight, on a small energy budget.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="stage stage-contain">
+                <img src="assets/breast-cancer-detector.png" width="670" height="572" alt="Two white handheld medical scanners in charging docks, in front of a review screen">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Tactile · AI</p>
+                <h3>Breast cancer detector</h3>
+                <p>A tactile sensor takes the reading and sends it to a monitor or tablet. AI optimization turns that data into a visual result.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="stage stage-contain stage-jig">
+                <img src="assets/jig-production.png" width="402" height="592" alt="Production test jig with a press fixture, a board under test, and a small touchscreen">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Manufacturing</p>
+                <h3>Production test jig</h3>
+                <p>Firmware for the jig that tests boards in volume. It powers the board, checks the signals, and reports pass or fail.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <article class="company" aria-labelledby="freelance-title">
+          <div class="company-copy">
+            <p class="kicker">Freelance</p>
+            <h3 id="freelance-title">Vending machine</h3>
+            <p>QRIS payment and a touchscreen. A purchase stays simple, and the display can carry advertising between sales.</p>
+          </div>
+          <div class="project-grid">
+            <article class="card">
+              <div class="stage stage-contain">
+                <img src="assets/vending-machine.png" width="712" height="522" alt="Vending machine interior with stocked shelves, and the front with a touchscreen payment display">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Payment · Display</p>
+                <h3>Vending machine</h3>
+                <p>Takes a QRIS payment on the touchscreen, then the same display can show advertising between sales.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="band band-alt" id="outside" aria-labelledby="outside-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="section-index">04</p>
+          <h2 id="outside-title">Achievements &amp; Publications</h2>
+          <p class="section-note">University funding, a journal paper, certificates, and invited talks.</p>
+        </div>
+        <ol class="roles">
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">2020</p>
+              <p class="role-where">Universitas Udayana</p>
+            </div>
+            <div class="role-body">
+              <h3>PKM Karsa Cipta</h3>
+              <p class="role-note">The KWH Smart Box, a student kWh meter, received university funding through PKM Karsa Cipta. The certificate is dated 1 December 2020.</p>
+              <p class="role-note"><a href="certificates/pkm-kc-smart-kwh-meter-certificate.pdf">View the certificate</a></p>
+            </div>
+          </li>
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">March 2022</p>
+              <p class="role-where">Jurnal SPEKTRUM</p>
+            </div>
+            <div class="role-body">
+              <h3>Swiftlet nest monitor</h3>
+              <p class="role-note">First-author paper in Vol. 9, No. 1. An ESP32-CAM photographs a swiftlet nest on command and switches its flash from a Telegram chat, so the building stays closed.</p>
+              <p class="role-note"><a href="Sistem_Monitor_Budi_Daya_Sarang_Burung_W.pdf">Read the paper</a></p>
+            </div>
+          </li>
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">Sep — Oct 2022</p>
+              <p class="role-where">Jakarta</p>
+            </div>
+            <div class="role-body">
+              <h3>Machine Learning Foundation</h3>
+              <p class="role-org">Fresh Graduate Academy · AWS</p>
+              <p class="role-note">75 hours of training, from 19 September to 3 October 2022, under the Digital Talent Scholarship. The certificate was issued on 21 November 2022.</p>
+              <p class="role-note"><a href="certificates/AWS-machine-learning-foundation-certificate.pdf">View the certificate</a></p>
+            </div>
+          </li>
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">30 January 2025</p>
+              <p class="role-where">Yogyakarta</p>
+            </div>
+            <div class="role-body">
+              <h3>Junior Mobile Computing</h3>
+              <p class="role-org">BNSP · Software development</p>
+              <p class="role-note">Competence certificate for software development, valid for three years, issued by the professional certification body for digital technology.</p>
+              <p class="role-note"><a href="certificates/Junior-mobile-computing-certificate.pdf">View the certificate</a></p>
+            </div>
+          </li>
+        </ol>
+        <h3 class="subsection">Speaking</h3>
+        <ol class="roles roles-follow">
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">11 November 2023</p>
+              <p class="role-where">Electro Festival</p>
+            </div>
+            <div class="role-body role-media">
+              <img src="assets/iot-speaker.png" width="800" height="532" alt="Dani Maulana speaking with a microphone on stage at a university event">
+              <div>
+                <h3>Careers in IoT</h3>
+                <p class="role-org">Udayana University</p>
+                <p class="role-note">Invited by the Electrical Engineering program. The session was for students, on where an electrical engineering degree can go inside IoT.</p>
+              </div>
+            </div>
+          </li>
+          <li class="role">
+            <div class="role-meta">
+              <p class="role-when">21 September 2024</p>
+              <p class="role-where">Udayana University</p>
+            </div>
+            <div class="role-body role-media">
+              <img src="assets/iot-workshop.png" width="838" height="394" alt="Dani presenting an IoT Industry 4.0 overview, and a group photo at a September 2024 IoT workshop">
+              <div>
+                <h3>Efficiency with IoT</h3>
+                <p class="role-org">Workshop for faculty</p>
+                <p class="role-note">Invited back by the same program, this time to speak with faculty on using IoT to run operations with less waste.</p>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band" id="skills" aria-labelledby="skills-title">
+      <div class="shell split">
+        <div>
+          <p class="section-index">05</p>
+          <h2 id="skills-title">Skills &amp; education</h2>
+        </div>
+        <div>
+          <dl class="skill-groups">
+            <div>
+              <dt>Firmware</dt>
+              <dd>C/C++, HAL, low-layer and register-level work, RTOS, bootloaders, firmware update over the air</dd>
+            </div>
+            <div>
+              <dt>Connected devices</dt>
+              <dd>IoT architecture, communication protocols, GSM, satellite, SMS, USB, Linux on single-board computers</dd>
+            </div>
+            <div>
+              <dt>Hardware</dt>
+              <dd>PCB layout, schematics, optical sensing, JTAG/SWD, logic analyzers, oscilloscopes</dd>
+            </div>
+            <div>
+              <dt>Practice</dt>
+              <dd>Python, production test GUIs, documentation, mentoring</dd>
+            </div>
+          </dl>
+          <div class="edu">
+            <p class="kicker">Universitas Udayana · Denpasar</p>
+            <h3>Electrical Engineering, B.Eng.</h3>
+            <p>Graduated June 2022. GPA 3.79 across 144 credits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="shell footer-grid">
+      <div>
+        <p class="section-index">06</p>
+        <h2>Contact</h2>
+        <p class="footer-lead">Open to firmware and IoT work. The fastest reply is email.</p>
+      </div>
+      <div class="footer-links">
+        <a class="email" href="mailto:danimaulana1907@gmail.com">danimaulana1907@gmail.com</a>
+        <p>Jakarta, Indonesia</p>
+        <p class="footer-downloads">
+          <a href="Dani_Maulana_Resume.pdf" download>Resume</a>
+        </p>
+      </div>
+    </div>
+    <div class="shell footer-base">
+      <p>Dani Maulana</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
