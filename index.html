@@ -31,7 +31,7 @@
         <a href="#experience">Experience</a>
         <a href="#outside">Achievements</a>
         <a href="#about">About</a>
-        <a class="nav-resume" href="Dani_Maulana_Resume.pdf" download>Resume</a>
+        <a class="nav-resume js-view-doc" href="Dani_Maulana_Resume.pdf" data-title="Resume">Resume</a>
       </nav>
     </div>
   </header>
@@ -45,7 +45,7 @@
         <p class="now">Currently building rally-car safety telemetry at PT Indo Trans Teknologi, including a satellite protocol the company uses to cut airtime cost.</p>
         <div class="hero-actions">
           <a class="button button-solid" href="#work">Selected work</a>
-          <a class="button button-ghost" href="Dani_Maulana_Resume.pdf" download>Download resume</a>
+          <a class="button button-ghost js-view-doc" href="Dani_Maulana_Resume.pdf" data-title="Resume">View resume</a>
         </div>
       </div>
     </section>
@@ -132,7 +132,7 @@
         <div class="section-head">
           <p class="section-index">03</p>
           <h2 id="work-title">Selected work</h2>
-          <p class="section-note">Devices and test tools, from a villa prototype to the jig that checks boards in production.</p>
+          <p class="section-note">Devices and test tools, from a villa prototype to a rally-car safety monitor.</p>
         </div>
 
         <article class="company" aria-labelledby="zetta-title">
@@ -187,7 +187,7 @@
                 <img src="assets/ultra-low-power-water-meter.png" width="502" height="550" alt="Red retrofit water meter with the lid open, showing a mechanical counter">
               </div>
               <div class="card-body">
-                <p class="kicker">Metering</p>
+                <p class="kicker">Smart Metering · IoT</p>
                 <h3>Ultra low power water meter</h3>
                 <p>A retrofit meter for live water use. It is built to keep reporting for a long time on one battery.</p>
               </div>
@@ -198,7 +198,7 @@
                 <img src="assets/optical-sensor.png" width="620" height="426" alt="Three small green sensor boards, each with a microcontroller and optical components">
               </div>
               <div class="card-body">
-                <p class="kicker">STM32U0 · Sensing</p>
+                <p class="kicker">Sensor</p>
                 <h3>Low power optical sensor</h3>
                 <p>The sensing front-end for that meter. It counts optical pulses and ignores daylight, on a small energy budget.</p>
               </div>
@@ -209,7 +209,7 @@
                 <img src="assets/breast-cancer-detector.png" width="670" height="572" alt="Two white handheld medical scanners in charging docks, in front of a review screen">
               </div>
               <div class="card-body">
-                <p class="kicker">Tactile · AI</p>
+                <p class="kicker">Medical Device</p>
                 <h3>Breast cancer detector</h3>
                 <p>A tactile sensor takes the reading and sends it to a monitor or tablet. AI optimization turns that data into a visual result.</p>
               </div>
@@ -223,6 +223,44 @@
                 <p class="kicker">Manufacturing</p>
                 <h3>Production test jig</h3>
                 <p>Firmware for the jig that tests boards in volume. It powers the board, checks the signals, and reports pass or fail.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <article class="company" aria-labelledby="itt-title">
+          <div class="company-copy">
+            <p class="kicker">PT Indo Trans Teknologi · Jakarta</p>
+            <h3 id="itt-title">Rally safety</h3>
+            <p>March 2026 onward. A safety monitor for the car, and a separate desktop app that flashes and tests it.</p>
+          </div>
+          <article class="card">
+            <div class="photo-strip">
+              <div class="stage stage-photo">
+                <img src="assets/rally-display.png" width="782" height="504" alt="TransTRACK screen showing distance, speed, elapsed time, and buttons for blocked, fire, and medical">
+              </div>
+              <div class="stage stage-photo">
+                <img src="assets/rally-deploy-on-car.png" width="1218" height="1152" alt="Rally safety monitor mounted on the roll cage inside a rally car">
+              </div>
+              <div class="stage stage-photo">
+                <img src="assets/rally-products.png" width="1222" height="996" alt="Rally safety monitors lined up on a bench, each with a coiled wiring harness">
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="kicker">Tracking · FIA</p>
+              <h3>Rally safety monitor</h3>
+              <p>Tracks a rally car to the FIA standard. Telemetry goes out over a hybrid link, satellite and GSM. The display shows distance, speed, and elapsed time, and the driver can flag a blocked road, fire, or a medical stop. It mounts on the roll cage.</p>
+            </div>
+          </article>
+          <div class="project-grid">
+            <article class="card">
+              <div class="stage stage-contain stage-app">
+                <img src="assets/rally-app-functional-test-flashing.png" width="1590" height="1250" alt="Rally Tracking Device Utility with buttons for a functional test and flashing firmware">
+              </div>
+              <div class="card-body">
+                <p class="kicker">Desktop App</p>
+                <h3>Rally test app</h3>
+                <p>A separate tool. It flashes firmware, then tests peripherals and communication before the unit leaves the bench.</p>
               </div>
             </article>
           </div>
@@ -266,7 +304,7 @@
             <div class="role-body">
               <h3>PKM Karsa Cipta</h3>
               <p class="role-note">The KWH Smart Box, a student kWh meter, received university funding through PKM Karsa Cipta. The certificate is dated 1 December 2020.</p>
-              <p class="role-note"><a href="certificates/pkm-kc-smart-kwh-meter-certificate.pdf">View the certificate</a></p>
+              <p class="role-note"><a class="js-view-doc" href="certificates/pkm-kc-smart-kwh-meter-certificate.pdf" data-title="PKM Karsa Cipta certificate">View the certificate</a></p>
             </div>
           </li>
           <li class="role">
@@ -289,7 +327,7 @@
               <h3>Machine Learning Foundation</h3>
               <p class="role-org">Fresh Graduate Academy · AWS</p>
               <p class="role-note">75 hours of training, from 19 September to 3 October 2022, under the Digital Talent Scholarship. The certificate was issued on 21 November 2022.</p>
-              <p class="role-note"><a href="certificates/AWS-machine-learning-foundation-certificate.pdf">View the certificate</a></p>
+              <p class="role-note"><a class="js-view-doc" href="certificates/AWS-machine-learning-foundation-certificate.pdf" data-title="Machine Learning Foundation certificate">View the certificate</a></p>
             </div>
           </li>
           <li class="role">
@@ -301,7 +339,7 @@
               <h3>Junior Mobile Computing</h3>
               <p class="role-org">BNSP · Software development</p>
               <p class="role-note">Competence certificate for software development, valid for three years, issued by the professional certification body for digital technology.</p>
-              <p class="role-note"><a href="certificates/Junior-mobile-computing-certificate.pdf">View the certificate</a></p>
+              <p class="role-note"><a class="js-view-doc" href="certificates/Junior-mobile-computing-certificate.pdf" data-title="Junior Mobile Computing certificate">View the certificate</a></p>
             </div>
           </li>
         </ol>
@@ -365,7 +403,7 @@
             </div>
           </dl>
           <div class="edu">
-            <p class="kicker">Universitas Udayana · Denpasar</p>
+            <p class="kicker">Universitas Udayana · Bali</p>
             <h3>Electrical Engineering, B.Eng.</h3>
             <p>Graduated June 2022. GPA 3.79 across 144 credits.</p>
           </div>
@@ -385,7 +423,7 @@
         <a class="email" href="mailto:danimaulana1907@gmail.com">danimaulana1907@gmail.com</a>
         <p>Jakarta, Indonesia</p>
         <p class="footer-downloads">
-          <a href="Dani_Maulana_Resume.pdf" download>Resume</a>
+          <a class="js-view-doc" href="Dani_Maulana_Resume.pdf" data-title="Resume">Resume</a>
         </p>
       </div>
     </div>
@@ -394,6 +432,14 @@
       <a href="#top">Back to top</a>
     </div>
   </footer>
+
+  <dialog class="doc-viewer" id="doc-viewer" aria-labelledby="doc-viewer-title">
+    <div class="doc-viewer-bar">
+      <p id="doc-viewer-title" class="doc-viewer-title"></p>
+      <button class="doc-viewer-close" type="button">Close</button>
+    </div>
+    <iframe class="doc-viewer-frame" title="Document"></iframe>
+  </dialog>
 
   <script src="main.js"></script>
 </body>
